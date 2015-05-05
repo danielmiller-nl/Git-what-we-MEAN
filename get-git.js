@@ -7,7 +7,7 @@ var dir = __dirname +'/jsonData';
 var nodeDir = require('node-dir');
 var oauth;
 var mongoose = require('mongoose');
-var mongoURI = process.env.MONGO || 'mongodb://localhost/meangit2';
+var mongoURI = process.env.CUSTOMCONNSTR_MONGOLAB_URI || 'mongodb://localhost/meangit2';
 
 
 //The oauth.js file is git ignored, this is to keep the Oauth secret
