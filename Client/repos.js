@@ -25,7 +25,7 @@ angular.module('gitDepends.repos', [])
   }])
   .factory('Repos', function($http) {
     var getRepos = function() {
-      console.log("Get Request Made");
+      console.log("Get Request Made!!!");
       return $http({
         method: 'GET',
         url: '/repos'
