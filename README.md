@@ -2,6 +2,8 @@
 
 > A tool that collects and visualizes dependency data on the top 200 most forked JavaScript repos.
 
+![Git Depends Screen Shot](http://s7.postimg.org/xtnt2ca9n/gitwhatwemean.jpg)
+
 ## Team
 
   - __Product Owner__: Daniel Miller
