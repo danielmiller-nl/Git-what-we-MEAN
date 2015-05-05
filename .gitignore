@@ -4,5 +4,6 @@ bower_components/
 *.txt
 server/data/
 
+oauth.js
 build/
 jsonData/
