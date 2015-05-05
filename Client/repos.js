@@ -31,6 +31,7 @@ angular.module('gitDepends.repos', [])
         method: 'GET',
         url: '/repos'
       }).then(function(res) {
+        console.log("RES",res);
         return res.data;
       });
     };
