@@ -1,7 +1,8 @@
 node_modules/
 bower_components/
 *.log
+*.txt
 server/data/
 
-oauth.jsbuild/
+build/
 jsonData/
