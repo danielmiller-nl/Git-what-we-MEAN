@@ -13,6 +13,7 @@ angular.module('gitDepends.repos', [])
       // in html file, use ng-repeat to iterate over array, display dependency name and length of repo array
 
      Repos.getRepos().then(function(data) {
+      console.log('DATA',data);
         $scope.repos = data;
         for(var i = 0;i<$scope.repos.length;i++){
           $scope.repos[i].numberOfDeps = $scope.repos[i].dependencies.length+$scope.repos[i].devDependencies.length;
